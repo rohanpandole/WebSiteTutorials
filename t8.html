@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>This is HTML form for user input</h2>
+
+
+    <form action="backend.php">
+
+        <div>
+
+            Name: <input type="text" name="Myname">
+        </div>
+        <div>
+            Age: <input type="text" name="MyAge">
+        </div>
+
+        <div>
+            Birth date: <input type="date" name="Mydate">
+        </div>
+
+        <div>
+            My Eligibility: <input type="checkbox" name="MyEligibility">
+        </div>
+        <div>
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+        </div>
+        <div>
+            Tell me about your self: <br> <textarea name="MyText" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <div>
+            Submit: <input type="submit" value="Submit now"> Reset: <input type="reset" value="Reset now">
+        </div>
+        <br>
+
+        <!-- label is used for auto select input text field if you click respective text -->
+        <label for="name">Name: </label>
+        <div>
+            <input type="text" name="Mybane" id="name">
+        </div>
+        <br>
+
+        <!-- select is useed for  -->
+
+        <div>
+            <label for="car">Car: </label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swftt">Swift</option>
+
+            </select>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>

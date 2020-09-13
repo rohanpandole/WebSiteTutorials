@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS begin</title>
+    <!-- there are three way to use css in html
+    1. directly use in HTML within any tag|element (Inline) 
+    2. directly use in HTML but define in head tag  (Internal)
+    3. create new file.css and make link it inside HTML head tag (Externa) 
+    -->
+
+    <!-- type 3  -->
+    <link rel="stylesheet" href="t12.css">
+
+
+
+    <!-- type 2 (Internal)-->
+    <style>
+        #aa {
+            color: rgb(24, 138, 113);
+        }
+        #a{
+            color: palevioletred;
+        }
+        #b{
+            color: red;    /*( lower side written css has more priority than uper side written css)*/
+        }
+
+
+    </style>
+    
+    
+
+</head>
+
+<body>
+
+    <!-- type 1 (Inline)-->
+    <!-- 
+        <p style="color: red;">This is begin</p> 
+    -->
+
+    <p id="aa">This is for first css demo</p>
+
+    <p id="a">This is for second css demo</p>
+
+    <p id="b">This is for third css demo</p>
+
+</body>
+
+</html>

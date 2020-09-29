@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+
+    <style>
+        /* element selector */
+        p{
+            color: darkblue;
+        }
+
+        /* ID selector */
+        #i01{
+            color: rgb(243, 14, 14);
+        }
+         #i02{
+            color: rgb(13, 236, 236);
+        } 
+
+        /* Class selector */
+        .c01{
+            background-color: darkseagreen;
+        }
+
+        /* Group selector */
+        footer,span{
+            color: rgb(248, 139, 6);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <p>hello hello</p>
+    <p id="i01">this is paragrap with id </p>
+    <p id="i02" class="c01"> this is paragraph with id and class </p>
+
+    <div>
+        <p>this is paragraph inside div</p>
+
+        <span>this is span inside div</span>
+        <footer>this is footer inside div</footer>
+    </div>
+    
+</body>
+</html>
